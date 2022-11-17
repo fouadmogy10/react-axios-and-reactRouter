@@ -1,0 +1,40 @@
+.ContactUsPage{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ContactUsPage input {
+    border: 1px solid #F5F5F5;
+}
+.ContactUsPage ::placeholder{
+    color: #C7C7C7;
+    font-size: 15px;
+}
+.ContactUsPage textarea{
+    border: 1px solid #F5F5F5;
+    resize: none;
+}
+.ContactUsPage .btn {
+    width: 130px;
+    height: 45px;
+    background-color: #0C8938;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.ContactUsPage .address{
+    margin-right: 20px;
+}
+.ContactUsPage .address span span , 
+.ContactUsPage .address span i {
+    color: #0C8938;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ContactUsPage .address p {
+    color: #9F9F9F;
+    font-size: 15px;
+}
+.ContactUsPage .location {
+    margin-top: 70px;
+}

@@ -1,0 +1,40 @@
+.one-serve{
+    display: contents;
+}
+.one-serve img {
+    display: block;
+    width: min-content;
+    height: 100%;
+    object-fit: cover;
+}
+.one-serve h6 {
+    margin-top: 20px !important;
+    font-size: 20px !important;
+    color: #0C8938;
+}
+.one-serve p{
+    font-size: 15px;
+    color: #5a5959;
+    line-height: 28px;
+}
+.one-serve .btn{
+    border-radius: 29px !important;
+    border-color: #DCDCDC !important;
+    padding: 10px 30px !important;
+    font-size: 17px !important;
+    color: #707070 !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.one-serve .btn:hover , .one-serve .btn:active{
+    background-color: #0C8938 !important;
+    color: #fff !important;
+}
+.one-serve .btn a{
+    text-decoration: none ;
+    color: #707070;
+}
+.one-serve .btn a:hover{
+    background-color: #0C8938;
+    color: #fff !important;
+}

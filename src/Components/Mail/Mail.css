@@ -1,0 +1,88 @@
+.my-mail {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.my-mail .title{
+    text-align: center;
+    padding: 50px 15px;
+    border: 1px solid #ede5e5;
+    border-radius: 50%;
+    display: inline-flex;
+    position: relative;
+    margin-bottom: 50px;
+    background-image: url(../../images//logo-title.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-mail .title h2 {
+    font-size: 25px;
+    color: #473900;
+    font-weight: bold;
+}
+.my-mail .title h2::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 3px;
+    border-radius: 15px;
+    background-color: #0C8938;
+    bottom: 39px;
+    left: 67px;
+}
+.my-mail .my-input{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    height: 56px;
+    border-radius: 28px;
+    /* border: 2px solid #00BCD4; */
+    transition: all .1s ease-in-out ;
+    -webkit-box-shadow:0px 15px 30px #0C8938;
+    -moz-box-shadow:0px 15px 30px #0C8938;
+    box-shadow:0px 15px 30px #0C8938;
+}
+@media only screen and (max-width: 992px) {
+    .my-mail .my-input{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .my-mail .my-input{
+        width: 100%;
+    }
+}
+.my-mail .my-input:hover , .my-mail .my-input:active{
+    border: 2px solid #00BCD4;
+}
+.my-mail .my-input input{
+    position: absolute;
+    width: 75%;
+    height: 98%;
+    right: 10px;
+    top: 0;
+    border-radius: 28px;
+    border: none ;
+    outline: none;
+}
+.my-mail input:focus{
+    border-color: #fff !important;
+}
+.my-mail .my-input .btn {
+    position: absolute;
+    width: 19%;
+    color: #fff !important;
+    border-radius: 28px !important;
+    height: 100%;
+    left: 0;
+    top: 0px;
+    bottom: 0;
+}
+.my-mail ::placeholder{
+    text-align: right;
+    color: #C2C2C2 !important;
+}
+.my-mail .form-control:focus {
+    border-color: #6265e4 !important;
+    box-shadow: 0 0 5px rgb(255, 255, 255) !important;
+}

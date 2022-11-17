@@ -1,0 +1,58 @@
+.headerAbout .nav3 {
+    display: flex;
+    position: relative;
+    min-height: 360px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../images/about-logo.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headerAbout .nav3 .overlay{
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: absolute;
+    background-color: #0C8938;
+    opacity: .8;
+}
+.headerAbout .nav3 .logo {
+    position: absolute;
+    z-index: 5;
+    top: -12%;
+    left: 39%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    border-radius: 50%;
+    background: #fff;
+    padding: 25px;
+}
+@media only screen and (max-width: 992px) {
+    
+    .headerAbout .nav3 .titleAbout {
+        margin-top: 20px;
+    }
+    .headerAbout .nav3 .logo {
+        width: 173px;
+        top:-19%;
+    }
+}
+
+.headerAbout .nav3 .titleAbout {
+    color: #fff;
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+
+}
+.headerAbout .nav3 .titleAbout h3{
+    font-size: 30px;
+    font-weight: bold;
+    
+}

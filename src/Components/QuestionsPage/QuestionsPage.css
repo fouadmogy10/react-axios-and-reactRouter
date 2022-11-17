@@ -1,0 +1,42 @@
+.questions-page{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.questions-page .accordion{
+    margin-bottom: 10px;
+}
+.haveQuestions {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    min-height: 488px;
+    background-color: #0C8938;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.haveQuestions h4{
+    position: absolute;
+    top: 12%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.haveQuestions input {
+    border-radius: 5px;
+}
+.haveQuestions textarea{
+    resize: none;
+    border-radius: 5px;
+}
+.haveQuestions button{
+    width: 100%;
+    background-color: #fff;
+    font-size: 15px;
+    color: #707070;
+    border-radius: 5px;
+}
+.haveQuestions ::placeholder{
+    color: #707070;
+    font-size: 15px;
+}

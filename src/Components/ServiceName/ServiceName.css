@@ -1,0 +1,48 @@
+.service-name{
+    margin-top: 150px;
+    /* margin-bottom: 20px; */
+}
+.oneServ{
+    border: 1px solid #b1a887;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 343px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 55px 25px;
+}
+.oneServ .logo-service {
+    position: absolute;
+    top: -25%;
+    
+}
+.oneServ h4{
+    color: #0C8938;
+    font-size: 20px;
+    font-weight: bold;
+}
+.oneServ p{
+    font-size: 13px;
+    color: #858585;
+    text-align: center;
+    line-height: 30px;
+}
+.oneServ .btn{
+    border: 1px solid #b1a887;
+    border-radius: 29px;
+    max-width: 170px;
+    font-size: 17px;
+    color: #473900 !important;
+    background-color: #fff !important;
+    padding: 8px 40px;
+    position: absolute;
+    bottom: -19px;
+}
+.oneServ .btn a{
+    text-decoration: none !important;
+    color: #473900 !important;
+}

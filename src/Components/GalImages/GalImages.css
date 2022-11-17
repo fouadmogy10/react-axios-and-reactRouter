@@ -1,0 +1,73 @@
+.galImages{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.div-img-gal{
+    position: relative;
+    width: 100%;
+    height: 194.94px;
+}
+.img-cont{
+    width: 20%;
+    float: left;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    position: relative;
+}
+@media only screen and (max-width: 992px){
+    .img-cont{
+        width: 25%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 768px){
+    .img-cont{
+        width: 50%;
+        float: left;
+    }
+}
+.img-cont .overlay{
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0C8938;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    cursor: pointer;
+}
+.overlay p {
+    font-size: 15px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+.overlay i {
+    text-align: center;
+   color: #fff;
+   display: block;
+   cursor: pointer;
+}
+.div-img-gal :hover .overlay{
+    display: block !important;
+    height: auto;
+}
+.div-img-gal :hover img{
+    display: none !important;
+}
+
+
+.img-cont2{
+    width: 20%;
+    float: left;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    position: relative;
+    
+}

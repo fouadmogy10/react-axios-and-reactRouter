@@ -1,0 +1,164 @@
+.my-gallery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.my-gallery .title{
+    text-align: center;
+    padding: 25px 15px;
+    border: 1px solid #ede5e5;
+    border-radius: 50%;
+    display: inline-flex;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+    background-image: url(../../images//logo-title.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-gallery  .title h2 {
+    font-size: 25px;
+    color: #473900;
+    font-weight: bold;
+}
+.my-gallery .title h2::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 3px;
+    border-radius: 15px;
+    background-color: #0C8938;
+    bottom: 25px;
+    left: 37px;
+}
+.div-img{
+    position: relative;
+    width: 100%;
+    height: 194.94px;
+}
+.img-cont{
+    width: 20%;
+    float: left;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    position: relative;
+}
+@media only screen and (max-width: 992px){
+    .img-cont{
+        width: 25%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 768px){
+    .img-cont{
+        width: 50%;
+        float: left;
+    }
+}
+.img-cont .overlay{
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0C8938;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    cursor: pointer;
+}
+.overlay p {
+    font-size: 15px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+.overlay i {
+    text-align: center;
+   color: #fff;
+   display: block;
+   cursor: pointer;
+}
+.div-img :hover .overlay{
+    display: block !important;
+    height: auto;
+}
+.div-img :hover img{
+    display: none !important;
+}
+
+
+.img-cont2{
+    width: 20%;
+    float: left;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    position: relative;
+    
+}
+.overLayVide{
+    background-color: #383434;
+    opacity: .4;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+@media only screen and (max-width: 992px){
+    .img-cont2{
+        width: 25%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 768px){
+    .img-cont2{
+        width: 50%;
+        float: left;
+    }
+}
+
+.img-cont2 .vidLogo{
+    display: block;
+    z-index: 5;
+   margin-left: 35%;
+   margin-top: 30%;
+    position: absolute;
+    cursor: pointer;
+}
+.div-img2{
+    position: relative;
+    width: 100%;
+    height: 194.94px;
+}
+
+.nav-tabs .nav-link.active{
+    color: #0c8938 !important;
+    position: relative;
+}
+.nav-tabs .nav-link.active::after{
+    background-color: #0C8938 ;
+    width: 25px;
+    height: 2px;
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 47%;
+}
+.nav-tabs .nav-link {
+    font-size: 15px !important;
+    color: #858585 !important;
+    font-weight: 700;
+    border-color: #fff !important;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+    justify-content: center;
+}

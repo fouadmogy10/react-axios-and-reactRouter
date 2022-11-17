@@ -1,0 +1,38 @@
+.conditions-page h4{
+    font-size: 30px;
+    color: #0C8938;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.conditions-page .prag {
+    margin-bottom: 60px;
+    margin-top: 40px;
+    line-height: 25px;
+}
+.conditions-page .prag p{
+    color: #707070;
+    font-size: 20px;
+    font-weight: bold;
+}
+.conditions-page .numbers {
+    width: 40px;
+    height: 40px;
+    background-color: #707070;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conditions-page .numbers span {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+.conditions-page .prag2{
+    font-size: 15px;
+    color: #707070;
+   
+}
+.conditions-page .prag2 p{
+    line-height: 30px;
+}

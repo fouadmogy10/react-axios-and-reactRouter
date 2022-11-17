@@ -1,0 +1,107 @@
+.my-footer{
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    min-height: 623px;
+    background-image: url(../../images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-footer .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #0C8938;
+    opacity: .8;
+}
+.my-footer .my-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 15px;
+    z-index: 5;
+}
+@media only screen and (max-width: 768px) {
+    .my-nav ul {
+       
+        flex-wrap: wrap;
+    }
+    .my-nav ul li {
+        margin-bottom: 5px;
+        margin-left: 20px;
+    }
+}
+.my-nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.my-content .my-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 768px) {
+    .my-content .my-logo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.my-content .my-social {
+    display: flex;
+    justify-content: center;
+}
+.my-content .my-social ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.my-content .my-social ul li:hover{
+    color: rgb(177, 166, 166);
+    transition: all 0.1s ease-in-out ;
+}
+.all-footer .footer{
+    min-height: 60px;
+    width: 100%;
+    background-color: #fff;
+    
+}
+.all-footer .footer p {
+    color: #0C8938;
+    font-size: 15px;
+}
+.my-footer .btn-top{
+    top: -46px;
+    margin-left: 47%;
+    position: absolute;
+}
+@media only screen and (max-width: 768px) {
+    .my-footer .btn-top{
+        margin-left: 40%;
+    }
+}
+.my-footer .btn-top i {
+    font-size: 70px;
+    color: #0C8938;
+}
+.my-footer .btn-top i:hover {
+    color: #31aa5a;
+    cursor: pointer;
+}
+.all-footer .my-nav a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
